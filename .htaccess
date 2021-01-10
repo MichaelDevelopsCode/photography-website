@@ -1,0 +1,15 @@
+# file url rewrite starts
+
+RewriteEngine on
+
+# does not apply to exsiting directories
+
+RewriteCond % {REQUEST_FILENAME} !-d
+
+# check for file in directory
+
+RewriteCond % {REQUEST_FILENAME}\.html -f
+
+# show page
+
+RewriteRule ^(.*)$ $1.html [NC,L]

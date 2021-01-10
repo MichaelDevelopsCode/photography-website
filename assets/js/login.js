@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "visualsbyvega@gmail.com" && password === "Buddy12345") {
         alert("You have successfully logged in.");
-        window.location.replace("./admin.html");
+        window.location.replace("./admin");
     } else {
         loginErrorMsg.style.opacity = 1;
     }
