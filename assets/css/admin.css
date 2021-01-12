@@ -122,6 +122,12 @@ main #section-title a i {
     font-variant: all-petite-caps;
 }
 
+.modal-body form #imgUploading img {
+    width: 50px;
+    height: 50px;
+    padding: 1px;
+}
+
 .modal-body .form-check-label i{
     font-size: 11px;
 }
@@ -165,4 +171,17 @@ main #section-title a i {
 .modal-footer .btn-outline-primary:hover {
     background-color: #e2b4b4;
     color: white;
+}
+
+#collectionAlert {
+    top: 5%;
+    left: 35%;
+}
+
+#collectionAlert .modal-dialog {
+    width: 200px;
+}
+#collectionAlert .modal-dialog .modal-body.alert {
+    margin: 0;
+    padding: 10px;
 }

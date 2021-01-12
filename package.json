@@ -16,5 +16,9 @@
     "url": "https://github.com/MichaelDevelopsCode/photography-website/issues"
   },
   "homepage": "https://github.com/MichaelDevelopsCode/photography-website#readme",
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-server": "^0.12.3",
+    "multer": "^1.4.2"
+  }
 }
