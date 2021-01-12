@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    color: #656565;
+    color: #343a40;
 }
 
 header {
@@ -60,6 +60,8 @@ header #intro h1 {
 main {
     margin: 0 20% 0 20%;
 }
+
+
 /* Collection start */
 main #section-title {
     font-size: 30px;
@@ -69,6 +71,98 @@ main #section-title {
 
 main #section-title a {
     text-decoration: none;
+    font-variant: petite-caps;
+    color: #343a40;
 }
 
+main #section-title button {
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+main #section-title button.arrow-back {
+    position: absolute;
+    transform: translate(-25px, 9px);
+}
+
+main #section-title button.add-collection {
+    float: right;
+    padding-top: 10px;
+}
+
+main #section-title button.add-collection:hover  .fa-plus-square:before {
+    color: green;
+    font-size: 22px;
+}
+
+
+main #section-title a i {
+    font-size: 20px;
+}
 /* Collection end */
+
+/* Collection Modal START*/
+.modal {
+ top: 15%;
+}
+
+.modal-header {
+    background-color: #f7e3e3;
+    padding-bottom: .5em;
+}
+
+.modal-header h6 {
+    font-variant: all-petite-caps;
+}
+
+.modal-body {
+    font-size: 15px;
+    padding: 2em 2em 1em 2em;
+    font-variant: all-petite-caps;
+}
+
+.modal-body .form-check-label i{
+    font-size: 11px;
+}
+
+.modal-body .form-check-input {
+    border: none;
+    background-color: rgba(0,0,0,.25);
+}
+
+.modal-body .form-check-input:hover {
+    cursor: pointer;
+}
+
+.modal-body .form-check-input:focus {
+    box-shadow: none;
+}
+
+.modal-body .form-check-input:checked {
+    background-color: #e2b4b4;
+    border-color: #e2b4b4;
+}
+
+.popover {
+    inset: -5px 50px auto auto !important;
+    max-width: 180px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.popover .popover-header {
+    font-size: 15px;
+    background-color: #f7e3e3;
+    font-variant: all-petite-caps;
+}
+
+.modal-footer .btn-outline-primary {
+    color: #e2b4b4;
+    border-color: #e2b4b4;
+}
+
+.modal-footer .btn-outline-primary:hover {
+    background-color: #e2b4b4;
+    color: white;
+}
